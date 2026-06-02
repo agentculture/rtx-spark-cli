@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 Format follows [Keep a Changelog](https://keepachangelog.com/). This project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.5] - 2026-06-02
+
+### Changed
+
+- CI smoke test: verify the version-bump → PR deploy lane. Confirms the `version-check` job passes on a real bump and that `publish.yml`'s `test-publish` job builds a `.devN` build and publishes it to TestPyPI via trusted publishing (OIDC, `testpypi` environment).
+
 ## [0.1.4] - 2026-05-31
 
 ### Added
