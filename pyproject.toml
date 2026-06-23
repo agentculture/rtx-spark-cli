@@ -1,6 +1,6 @@
 [project]
 name = "rtx-spark-cli"
-version = "0.1.5"
+version = "0.2.0"
 description = "Agent and CLI for operating an NVIDIA RTX workstation — device setup, health/monitoring, and local AI/ML workload management."
 readme = "README.md"
 license = "MIT"
